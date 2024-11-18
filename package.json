@@ -1,0 +1,26 @@
+{
+  "name": "material-min",
+  "displayName": "Material Min",
+  "description": "Based on material sintax with dark minimalist UI",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Min",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "Material Min Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkItalic.json"
+      }
+    ]
+  }
+}
